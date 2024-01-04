@@ -6,18 +6,18 @@ on:
 # At a minimum, change the variables denoted with a * in the comment in order to ensure uniqueness.
 env:
   RESOURCEGROUPNAME: "metrics-poc-rg" # Azure Resource group's name *
-  LOCATION: "Europe West" # Azure Resource group's location
+  LOCATION: "westeurope" # Azure Resource group's location
   IMAGENAME: "azuremetricsdotnet" # Image name *
   REGISTRYSKU: "Standard" # Registry sku
   REGISTRYNAME: "metrics-poc-image-registry" # Container registry name *
-  REGISTRYLOCATION: "Europe West" # Container registry location
+  REGISTRYLOCATION: "westeurope" # Container registry location
   CLUSTERNAME: "metrics-poc-aks" # Cluster name *
-  APPINSIGHTSLOCATION: "Europe West" # Application insights location
-  CLUSTERLOCATION: "Europe West" # Cluster location
+  APPINSIGHTSLOCATION: "westeurope" # Application insights location
+  CLUSTERLOCATION: "westeurope" # Cluster location
   AGENTCOUNT: "2" # Agent count
   AGENTVMSIZE: "Standard_DS2_v2" # Agent VM Size
   KUBERNETESVERSION: 1.29.0 # Kubernetes version
-  OMSLOCATION: "Europe West" # OMS location
+  OMSLOCATION: "westeurope" # OMS location
   OMSWORKSPACENAME: "metrics-poc-oms" # Name of the OMS workspace *
   HTTPSAPPLICATIONROUTINGENABLED: false
   KUBERNETESAPI: "apps/v1"
