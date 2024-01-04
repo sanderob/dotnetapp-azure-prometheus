@@ -16,7 +16,7 @@ env:
   CLUSTERLOCATION: "westeurope" # Cluster location
   AGENTCOUNT: "2" # Agent count
   AGENTVMSIZE: "Standard_DS2_v2" # Agent VM Size
-  KUBERNETESVERSION: 1.29.0 # Kubernetes version
+  KUBERNETESVERSION: 1.28.3 # Kubernetes version
   OMSLOCATION: "westeurope" # OMS location
   OMSWORKSPACENAME: "metrics-poc-oms" # Name of the OMS workspace *
   HTTPSAPPLICATIONROUTINGENABLED: false
