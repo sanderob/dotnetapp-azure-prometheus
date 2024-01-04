@@ -9,7 +9,7 @@ env:
   LOCATION: "westeurope" # Azure Resource group's location
   IMAGENAME: "azuremetricsdotnet" # Image name *
   REGISTRYSKU: "Standard" # Registry sku
-  REGISTRYNAME: "metrics-poc-image-registry" # Container registry name *
+  REGISTRYNAME: "metricspocimageregistry" # Container registry name *
   REGISTRYLOCATION: "westeurope" # Container registry location
   CLUSTERNAME: "metrics-poc-aks" # Cluster name *
   APPINSIGHTSLOCATION: "westeurope" # Application insights location
